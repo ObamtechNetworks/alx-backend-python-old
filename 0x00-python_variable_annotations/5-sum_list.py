@@ -3,10 +3,10 @@
 Dealing with complex types
 """
 
-from typing import Iterator
+from typing import List
 
 
-def sum_list(input_list: Iterator[float]) -> Iterator[float]:
+def sum_list(input_list: List[float]) -> List[float]:
     """
 
     Args:
