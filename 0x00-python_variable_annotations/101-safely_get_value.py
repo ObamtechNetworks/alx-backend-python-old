@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Safely get a value from an iterator"""
 
+
 from typing import TypeVar, Any, Mapping, Union
+
 
 T = TypeVar('T')
 
