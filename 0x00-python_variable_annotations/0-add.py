@@ -2,6 +2,7 @@
 
 """Basic annotations"""
 
+
 def add(a: float, b: float) -> float:
     """A function that sums two floating point number
 
@@ -12,4 +13,4 @@ def add(a: float, b: float) -> float:
     Returns:
         float: Returns the sum of the arguments as float
     """
-    return a + b;
+    return a + b
