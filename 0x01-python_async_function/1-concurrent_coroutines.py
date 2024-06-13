@@ -7,7 +7,7 @@ from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-async def wait_n(n: int, max_delay: int) -> List:
+async def wait_n(n: int, max_delay: int) -> List[float]:
     """Returns a list of all delays spawned from wait_random"""
     # define an empty list to take all the delays
     # delays = [wait_random(max_delay) for _ in range(n)]
