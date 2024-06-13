@@ -15,7 +15,7 @@ async def wait_random(max_delay=10):
     """
 
     # use the random.uniform module to reference the delay value
-    delay = random.uniform(0, float(10))
+    delay = random.uniform(0, float(max_delay))
     # wait using asyncio.sleep
     await asyncio.sleep(delay=delay)
     # return the random value
