@@ -5,7 +5,7 @@ import random
 import asyncio
 
 
-async def wait_random(max_delay: int =10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     """
     An asynchronous coroutine that takes in an integer argument
     (max_delay with default of 10)
@@ -17,6 +17,6 @@ async def wait_random(max_delay: int =10) -> float:
     # use the random.uniform module to reference the delay value
     delay = random.uniform(0, float(max_delay))
     # wait using asyncio.sleep
-    await asyncio.sleep(delay=delay)
+    await asyncio.sleep(delay)
     # return the random value
     return delay
